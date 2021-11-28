@@ -24,7 +24,7 @@ img {
 :root {
   --header-height: 4.5rem;
   /* colors */
-  --hue: 600;
+  --hue: 165;
   /* HSL color mode */
   --base-color: hsl(var(--hue) 36% 57%);
   --base-color-second: hsl(var(--hue) 65% 88%);
@@ -336,18 +336,21 @@ nav.show div.icon-close {
   margin-right: 1.5rem;
 }
 
-/*====  SERVICES ============================ */
+/*==== Empreendimentos ============================ */
 
 .cards.grid {
   gap: 2.0rem;
+  display: flex;
+  align-items: center;
 }
 
 .card {
-  padding: 0.3rem 0.5rem;
+  padding: 1.3rem 0.5rem;
   box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
   border-bottom: 0.25rem solid var(--base-color);
   border-radius: 0.25rem 0.25rem 0 0;
   text-align: center;
+  height: 33rem;
 }
 
 .card i {
