@@ -340,8 +340,7 @@ nav.show div.icon-close {
 
 .cards.grid {
   gap: 2.0rem;
-  display: flex;
-  align-items: center;
+  
 }
 
 .card {
